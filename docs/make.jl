@@ -18,4 +18,6 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/greimel/NetworksCourse.jl",
+    devbranch = "main",
+    push_preview = true,
 )
